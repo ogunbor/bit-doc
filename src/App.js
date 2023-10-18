@@ -111,7 +111,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>pleb wallet</h1>
+        <h1 style={{color: "black"}}>BitDoc wallet</h1>
       </header>
       <Buttons />
       <div className="row">
@@ -133,7 +133,7 @@ function App() {
         </div>
       </div>
       <footer>
-        <p>Made by plebs, for plebs.</p>
+        <p>Made by Charja</p>
       </footer>
     </div>
   );

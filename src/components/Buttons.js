@@ -13,15 +13,9 @@ export const Buttons = () => {
       <div className="buttons">
         <button
           className="button"
-          onClick={() => setModalState({ type: "send", open: true })}
-        >
-          Send
-        </button>
-        <button
-          className="button"
           onClick={() => setModalState({ type: "receive", open: true })}
         >
-          Receive
+          Send
         </button>
       </div>
       <PaymentsModal modalState={modalState} setModalState={setModalState} />
