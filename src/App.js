@@ -117,7 +117,7 @@ function App() {
       <div className="row">
         <div className="balance-card">
           <h2>Balance</h2>
-          <p>{balance} sats</p>
+          <p>{balance}0 sats</p>
         </div>
         <div className="balance-card">
           <h2>Price</h2>
